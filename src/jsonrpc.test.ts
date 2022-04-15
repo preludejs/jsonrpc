@@ -1,4 +1,4 @@
-import * as Jsonrpc from '../cjs/index.js'
+import * as Jsonrpc from './index.js'
 
 test('kind', () => {
   expect(Jsonrpc.kind(undefined)).toBe(undefined)
